@@ -1,4 +1,9 @@
-public class Circle extends Figure implements Printing{
+package Figures;
+
+import FiguresThings.Printing;
+import IO.Output;
+
+public class Circle extends Figure implements Printing {
 
     private double r;
     public Circle(double r){

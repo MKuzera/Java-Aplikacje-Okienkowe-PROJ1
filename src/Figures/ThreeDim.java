@@ -1,3 +1,8 @@
+package Figures;
+
+import FiguresThings.Printing;
+import IO.Output;
+
 public class ThreeDim extends Figure implements Printing {
     Figure figure;
     double height;

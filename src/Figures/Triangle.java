@@ -1,4 +1,9 @@
-public class Triangle extends Figure implements Printing{
+package Figures;
+
+import FiguresThings.Printing;
+import IO.Output;
+
+public class Triangle extends Figure implements Printing {
     double a;
     double b;
     double c;

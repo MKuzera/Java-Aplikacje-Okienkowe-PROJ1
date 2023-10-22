@@ -1,4 +1,9 @@
-public class Square extends Figure implements Printing{
+package Figures;
+
+import FiguresThings.Printing;
+import IO.Output;
+
+public class Square extends Figure implements Printing {
     double a;
     public Square(double a){
         if(a < 0){

@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce9796b6-e008-452a-b001-fbb9a2fc2801" name="Changes" comment="Base module complete">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LabProj1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProgramFigures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreeDim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Printing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiguresThings/Printing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgramFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiguresThings/ProgramFigures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeDim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/ThreeDim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -84,8 +80,16 @@
       <option name="presentableId" value="Default" />
       <updated>1697788399911</updated>
       <workItem from="1697788401207" duration="4761000" />
-      <workItem from="1697957446454" duration="4740000" />
+      <workItem from="1697957446454" duration="5381000" />
     </task>
+    <task id="LOCAL-00001" summary="Base module complete">
+      <created>1697962705904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697962705904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

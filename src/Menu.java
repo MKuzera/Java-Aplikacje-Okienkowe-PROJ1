@@ -1,8 +1,14 @@
+import Figures.*;
+import FiguresThings.ProgramFigures;
+import IO.*;
+
+
 public abstract class Menu {
 
     public static void start() {
         String inputFigure;
         boolean isLoop = true;
+
         while (isLoop) {
             Menu.displayOptions();
             inputFigure = Input.getFromConsole();
@@ -38,26 +44,23 @@ public abstract class Menu {
     }
 
     private static void calculateThreeDimCircle() {
-        ThreeDim threeDim = Input.createThreeDimCircleFromConsole();
-        threeDim.print();
+        ThreeDim threeDimCircle = Input.createThreeDimCircleFromConsole();
+        threeDimCircle.print();
     }
 
     private static void calculateThreeDimTriangle() {
-        ThreeDim threeDim = Input.createThreeDimTriangleFromConsole();
-        threeDim.print();
+        ThreeDim threeDimTriangle = Input.createThreeDimTriangleFromConsole();
+        threeDimTriangle.print();
     }
 
     private static void calculateThreeDimSquare() {
-
-        ThreeDim threeDim = Input.createThreeDimSquareFromConsole();
-        threeDim.print();
-
+        ThreeDim threeDimSquare = Input.createThreeDimSquareFromConsole();
+        threeDimSquare.print();
     }
 
     private static void calculateCircle() {
         Circle circle = Input.createCircleFromConsole();
         circle.print();
-
     }
 
     private static void calculateTriangle() {
@@ -68,7 +71,6 @@ public abstract class Menu {
     private static void calculateSquare() {
         Square square = Input.createSquareFromConsole();
         square.print();
-
     }
     private static void displayOptions(){
         Output.out("Select:");

@@ -1,3 +1,5 @@
+package FiguresThings;
+
 public enum ProgramFigures {
 
         Square("1"),
