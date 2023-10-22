@@ -1,14 +1,15 @@
 package Figures;
 
+import Exceptions.NegativeInputException;
 import FiguresThings.Printing;
 import IO.Output;
 
 public class Circle extends Figure implements Printing {
 
     private double r;
-    public Circle(double r){
+    public Circle(double r) throws NegativeInputException {
         if(r < 0){
-            throw new RuntimeException("r cannot be negative");
+            throw new NegativeInputException("R cannot be negative");
         }
         this.r = r;
     }

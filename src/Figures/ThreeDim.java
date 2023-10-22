@@ -1,5 +1,6 @@
 package Figures;
 
+import Exceptions.NegativeInputException;
 import FiguresThings.Printing;
 import IO.Output;
 
@@ -16,9 +17,9 @@ public class ThreeDim extends Figure implements Printing {
         Output.out(stringBuilder.toString());
     }
 
-    public ThreeDim(Figure figure, double height){
+    public ThreeDim(Figure figure, double height) throws NegativeInputException {
         if(height < 0){
-            throw new RuntimeException("Height cannot be negative");
+            throw new NegativeInputException("Height cannot be negative");
         }
         this.figure = figure;
         this.height = height;
